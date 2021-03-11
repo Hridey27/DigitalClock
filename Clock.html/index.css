@@ -1,0 +1,31 @@
+body {
+  /* background-color: darkgray; */
+  background-image: url("https://i2.wp.com/onaircode.com/wp-content/uploads/2017/11/Constellation.jpg?resize=908%2C535&ssl=1");
+}
+.clock {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 240px;
+  height: 150px;
+  padding: 10 px;
+  text-align: center;
+  border-radius: 10px;
+}
+.clock-time,
+.clock-ampm,
+.date,
+.month {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: azure;
+  text-align: center;
+  padding: 5px;
+}
+.clock-time {
+  font-size: 50px;
+  text-align: center;
+}
+.date,
+.month {
+  height: 10px;
+}
